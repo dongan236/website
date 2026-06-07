@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Chat hỗ trợ</title>
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      }
+      .hint {
+        position: fixed;
+        left: 12px;
+        bottom: 12px;
+        padding: 10px 12px;
+        background: rgba(0,0,0,.6);
+        color: #fff;
+        border-radius: 10px;
+        font-size: 13px;
+      }
+    </style>
+
+    <!-- Crisp Chat -->
+    <script type="text/javascript">
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "9718fee0-e25d-4085-b46d-efe565f4a00d";
+      (function () {
+        var d = document;
+        var s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div class="hint">Bấm biểu tượng chat (góc dưới) để nhắn tin.</div>
+  </body>
+</html>
